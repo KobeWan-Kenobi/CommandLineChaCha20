@@ -25,6 +25,7 @@ help = [
     '<span class="command">email</span>          Do not email me',
     '<span class="command">clear</span>          Clear terminal',
     '<span class="command">learn</span>          Enters learn mode, see chacha20 in action 😎',
+    '<span class="command">login</span>          Enters login/register mode for creating a new account or logging in',
     "<br>",
 ];
 
