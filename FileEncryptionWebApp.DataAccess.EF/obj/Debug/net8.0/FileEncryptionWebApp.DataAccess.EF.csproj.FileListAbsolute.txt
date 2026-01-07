@@ -1,0 +1,14 @@
+C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp.DataAccess.EF\obj\Debug\net8.0\FileEncryptionWebApp.DataAccess.EF.csproj.AssemblyReference.cache
+C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp.DataAccess.EF\obj\Debug\net8.0\FileEncryptionWebApp.DataAccess.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp.DataAccess.EF\obj\Debug\net8.0\FileEncryptionWebApp.DataAccess.EF.AssemblyInfoInputs.cache
+C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp.DataAccess.EF\obj\Debug\net8.0\FileEncryptionWebApp.DataAccess.EF.AssemblyInfo.cs
+C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp.DataAccess.EF\obj\Debug\net8.0\FileEncryptionWebApp.DataAccess.EF.csproj.CoreCompileInputs.cache
+C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp.DataAccess.EF\bin\Debug\net8.0\FileEncryptionWebApp.DataAccess.EF.deps.json
+C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp.DataAccess.EF\bin\Debug\net8.0\FileEncryptionWebApp.DataAccess.EF.runtimeconfig.json
+C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp.DataAccess.EF\bin\Debug\net8.0\FileEncryptionWebApp.DataAccess.EF.dll
+C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp.DataAccess.EF\bin\Debug\net8.0\FileEncryptionWebApp.DataAccess.EF.pdb
+C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp.DataAccess.EF\obj\Debug\net8.0\FileEncryptionWebApp.DataAccess.EF.dll
+C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp.DataAccess.EF\obj\Debug\net8.0\refint\FileEncryptionWebApp.DataAccess.EF.dll
+C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp.DataAccess.EF\obj\Debug\net8.0\FileEncryptionWebApp.DataAccess.EF.pdb
+C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp.DataAccess.EF\obj\Debug\net8.0\FileEncryptionWebApp.DataAccess.EF.genruntimeconfig.cache
+C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp.DataAccess.EF\obj\Debug\net8.0\ref\FileEncryptionWebApp.DataAccess.EF.dll

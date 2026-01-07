@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileEncryptionWebApp", "FileEncryptionWebApp\FileEncryptionWebApp.csproj", "{C43D1C64-819B-44BC-87D8-90943A84CE88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileEncryptionWebApp.DataAccess.EF", "FileEncryptionWebApp.DataAccess.EF\FileEncryptionWebApp.DataAccess.EF.csproj", "{CA9232B9-F7F7-43AE-B89D-C0D51DDEAE97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChaChaServiceUnitTests", "ChaChaServiceUnitTests\ChaChaServiceUnitTests\ChaChaServiceUnitTests.csproj", "{BB76C737-6D53-E567-68B0-13DF7740E859}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C43D1C64-819B-44BC-87D8-90943A84CE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43D1C64-819B-44BC-87D8-90943A84CE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43D1C64-819B-44BC-87D8-90943A84CE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43D1C64-819B-44BC-87D8-90943A84CE88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA9232B9-F7F7-43AE-B89D-C0D51DDEAE97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA9232B9-F7F7-43AE-B89D-C0D51DDEAE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA9232B9-F7F7-43AE-B89D-C0D51DDEAE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA9232B9-F7F7-43AE-B89D-C0D51DDEAE97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB76C737-6D53-E567-68B0-13DF7740E859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB76C737-6D53-E567-68B0-13DF7740E859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB76C737-6D53-E567-68B0-13DF7740E859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB76C737-6D53-E567-68B0-13DF7740E859}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BC9E277-C93B-4839-A755-C058324C72FD}
+	EndGlobalSection
+EndGlobal
