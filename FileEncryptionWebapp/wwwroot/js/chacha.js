@@ -70,6 +70,20 @@ const ChaChaService = {
         const encoder = new TextEncoder();
         const message = encoder.encode(plaintext);
 
+        steps.push({
+            stepNumber: 1,
+            stepName: "Convert to Bytes",
+            description: [
+                "<br>",
+                "The following demonstration assumes that the user has a grasp of",
+                "binary and decimal numbers and basic binary operations, especially",
+                "binary addition, exclusive or (xor), and bit rotations",
+                "<br>"
+            ],
+            stateData: null ,
+            stateType: "hex"
+        });
+
         // Step 1: Show bytes
         
         steps.push({
@@ -80,6 +94,8 @@ const ChaChaService = {
                 "First, the message is converted into bytes using ASCII.",
                 "1 byte is represented by 2 hex digits:",
                 "e.g. : \'Yo!\' = 59 6f 21",
+                "This demonstration uses binary and hex representations:",
+                "e.g. 12 is 0b00001100 in binary and 0x0c in hexadecimal",
                 "The following is your message in hexadecimal:",
                 "<br>"
             ],
@@ -94,16 +110,17 @@ const ChaChaService = {
             description: [
                 "We use Mozilla's crypto.getRandomValues(), a secure number generator, to get our key and nonce.",
                 "The key is the heart of this whole operation.",
-                "A nonce is a randomly generated PUBLIC number used to prevent the same plaintext from producing the same ciphertext, adding a layer of randomness",
+                "A nonce is a randomly generated PUBLIC number used to prevent",
+                "the same plaintext from producing the same ciphertext, adding a layer of randomness",
                 "Thus, nonces also prevent attackers from seeing patterns in the ciphertext.",
                 "That way, even if attackers gain a portion of the key, they don't know which data to apply the key to.",
                 "Finally, nonces allow key reuse, since they are public they don't need to be managed as strictly.",
                 "Keys are expensive to store and manage as databases fill with users."
             ],
             stateData: {
-                // TODO: Make this into a formal function
-                nonce: Array.from(message).map(b => b.toString(16).padStart(2, '0')).join(' '), 
-                key: Array.from(message).map(b => b.toString(16).padStart(2, '0')).join(' ')
+                // TODO: Make this into a formal function - it converts first 64 bytes of keyStreamBytes into "aa bb cc dd" format.
+                nonce: Array.from(nonce).map(b => b.toString(16).padStart(2, '0')).join(' '), 
+                key: Array.from(key).map(b => b.toString(16).padStart(2, '0')).join(' ')
             },
             stateType: "base64"
         });
@@ -137,8 +154,8 @@ const ChaChaService = {
                 "<br>",
                 "Now that the matrix is generated, we get to the heart of the algorithm.",
                 "We shuffle the matrix using a special function: QuarterRound(a,b,c,d)",
-                "+= is an increment operator. e.g. given x = 5, x+= 1 sets x = 6",
-                "^= is an xor and assign operator. e.g x = 0b0110, x^= 0b1010 sets x = 0b1100",
+                "+= is an increment operator. e.g. given x = 0b0101, x+= 0b0001 sets x = 0b0110",
+                "^= is an xor and assign operator. For example in binary: x = 0b0110, x^= 0b1010 sets x = 0b1100",
                 "RotateLeft(binaryNum, digits) rotates a binary number left in a set amount of digits:",
                 "e.g. RotateLeft(x = 0110, 1) => 1100",
                 "Using the above operations, QuarterRound(a,b,c,d) shuffles 4 blocks in this specific way:",
@@ -169,18 +186,8 @@ const ChaChaService = {
                 m n o p
                 */
             ],
-            stateData: "Each round applies: a+=b; d^=a; d=ROL(d,16); c+=d; b^=c; b=ROL(b,12); a+=b; d^=a; d=ROL(d,8); c+=d; b^=c; b=ROL(b,7)",
+            stateData: "",
             stateType: "text"
-        });
-
-        // Step 6: Generate keystream
-        const keyStreamBytes = this.shuffleKeyStreamMatrix(keyStreamMatrix);
-        steps.push({
-            stepNumber: 7,
-            stepName: "Generate Keystream",
-            description: "64-byte keystream generated from shuffled matrix",
-            stateData: Array.from(keyStreamBytes.slice(0, 64)).map(b => b.toString(16).padStart(2, '0')).join(' '),
-            stateType: "hex"
         });
 
         // Step 7: XOR operation
