@@ -2,7 +2,7 @@
 //site.js
 /* TODOs:
  * 1. Login mode: move the commented-out login/register logic to its own commander
- * 2. Finish chacha.js 'encryptWithSteps' method
+ * 2. Create a function to show encryptWithSteps
  * 3. Re-scaffold backend with the 'Users' table
  * 4. Write the back-end for the Entries, Users and EncryptionKeys tables
  * 5. Update 'help' function to include new commands

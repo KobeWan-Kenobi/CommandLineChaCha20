@@ -1,0 +1,538 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\wwwroot\\js\\chacha.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\wwwroot\\js\\chacha.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\wwwroot\\js\\caret.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\wwwroot\\js\\caret.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\wwwroot\\js\\commands.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\wwwroot\\js\\commands.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB76C737-6D53-E567-68B0-13DF7740E859}|ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\chachaserviceunittests\\chachaserviceunittests\\services\\chachaserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB76C737-6D53-E567-68B0-13DF7740E859}|ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests.csproj|solutionrelative:chachaserviceunittests\\chachaserviceunittests\\services\\chachaserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\controllers\\entriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\controllers\\entriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\controllers\\encryptionkeyscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\controllers\\encryptionkeyscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\controllers\\chachacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\controllers\\chachacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA9232B9-F7F7-43AE-B89D-C0D51DDEAE97}|FileEncryptionWebApp.DataAccess.EF\\FileEncryptionWebApp.DataAccess.EF.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp.dataaccess.ef\\context\\fileencryptionprojectdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA9232B9-F7F7-43AE-B89D-C0D51DDEAE97}|FileEncryptionWebApp.DataAccess.EF\\FileEncryptionWebApp.DataAccess.EF.csproj|solutionrelative:fileencryptionwebapp.dataaccess.ef\\context\\fileencryptionprojectdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\viewmodels\\encryptionkeysviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\viewmodels\\encryptionkeysviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\viewmodels\\entriesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\viewmodels\\entriesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\services\\simplifiedchachaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\services\\simplifiedchachaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA9232B9-F7F7-43AE-B89D-C0D51DDEAE97}|FileEncryptionWebApp.DataAccess.EF\\FileEncryptionWebApp.DataAccess.EF.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp.dataaccess.ef\\repositories\\entriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA9232B9-F7F7-43AE-B89D-C0D51DDEAE97}|FileEncryptionWebApp.DataAccess.EF\\FileEncryptionWebApp.DataAccess.EF.csproj|solutionrelative:fileencryptionwebapp.dataaccess.ef\\repositories\\entriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA9232B9-F7F7-43AE-B89D-C0D51DDEAE97}|FileEncryptionWebApp.DataAccess.EF\\FileEncryptionWebApp.DataAccess.EF.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp.dataaccess.ef\\repositories\\encryptionkeysrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA9232B9-F7F7-43AE-B89D-C0D51DDEAE97}|FileEncryptionWebApp.DataAccess.EF\\FileEncryptionWebApp.DataAccess.EF.csproj|solutionrelative:fileencryptionwebapp.dataaccess.ef\\repositories\\encryptionkeysrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\services\\chachaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\services\\chachaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA9232B9-F7F7-43AE-B89D-C0D51DDEAE97}|FileEncryptionWebApp.DataAccess.EF\\FileEncryptionWebApp.DataAccess.EF.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp.dataaccess.ef\\fileencryptionwebapp.dataaccess.ef.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CA9232B9-F7F7-43AE-B89D-C0D51DDEAE97}|FileEncryptionWebApp.DataAccess.EF\\FileEncryptionWebApp.DataAccess.EF.csproj|solutionrelative:fileencryptionwebapp.dataaccess.ef\\fileencryptionwebapp.dataaccess.ef.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\fileencryptionwebapp\\fileencryptionwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C43D1C64-819B-44BC-87D8-90943A84CE88}|FileEncryptionWebApp\\FileEncryptionWebApp.csproj|solutionrelative:fileencryptionwebapp\\fileencryptionwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB76C737-6D53-E567-68B0-13DF7740E859}|ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\chachaserviceunittests\\chachaserviceunittests\\chachaserviceunittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BB76C737-6D53-E567-68B0-13DF7740E859}|ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests.csproj|solutionrelative:chachaserviceunittests\\chachaserviceunittests\\chachaserviceunittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB76C737-6D53-E567-68B0-13DF7740E859}|ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests.csproj|c:\\users\\12819\\source\\repos\\fileencryptionwebapp\\chachaserviceunittests\\chachaserviceunittests\\services\\simplifiedchachaserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB76C737-6D53-E567-68B0-13DF7740E859}|ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests.csproj|solutionrelative:chachaserviceunittests\\chachaserviceunittests\\services\\simplifiedchachaserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\12819\\source\\repos\\Course-CRUD-Applications\\Module - Building the Contacts App GUI\\SQLFundamentals.DataAccess\\SQLFundamentals.DataAccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\12819\\source\\repos\\Course-CRUD-Applications\\Module - Building the Contacts App GUI\\SQLFundamentals.DataAccess\\Models\\AccountModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\12819\\source\\repos\\Course-CRUD-Applications\\Module - Building the Contacts App GUI\\SQLFundamentals.DataAccess\\Models\\BookModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp.DataAccess.EF\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FileEncryptionWebApp.DataAccess.EF\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Repositories\\FilesRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FileEncryptionWebApp\\Repositories\\FilesRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 478,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "chacha.js",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\wwwroot\\js\\chacha.js",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\wwwroot\\js\\chacha.js",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\wwwroot\\js\\chacha.js*",
+              "RelativeToolTip": "FileEncryptionWebApp\\wwwroot\\js\\chacha.js*",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAIwIMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-20T03:53:51.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EncryptionKeysController.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Controllers\\EncryptionKeysController.cs",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\Controllers\\EncryptionKeysController.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Controllers\\EncryptionKeysController.cs",
+              "RelativeToolTip": "FileEncryptionWebApp\\Controllers\\EncryptionKeysController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T03:37:06.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EntriesController.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Controllers\\EntriesController.cs",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\Controllers\\EntriesController.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Controllers\\EntriesController.cs",
+              "RelativeToolTip": "FileEncryptionWebApp\\Controllers\\EntriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T03:37:26.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FileEncryptionWebApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:42:22.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FileEncryptionWebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T00:09:31.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FileEncryptionWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T04:00:19.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FileEncryptionWebApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T22:43:43.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "FileEncryptionWebApp\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-16T01:07:49.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChaChaServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\Services\\ChaChaServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\Services\\ChaChaServiceUnitTests.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\Services\\ChaChaServiceUnitTests.cs",
+              "RelativeToolTip": "ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\Services\\ChaChaServiceUnitTests.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAgwJkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T08:48:40.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "commands.js",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\wwwroot\\js\\commands.js",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\wwwroot\\js\\commands.js",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\wwwroot\\js\\commands.js",
+              "RelativeToolTip": "FileEncryptionWebApp\\wwwroot\\js\\commands.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-16T23:31:59.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\wwwroot\\js\\site.js*",
+              "RelativeToolTip": "FileEncryptionWebApp\\wwwroot\\js\\site.js*",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-16T00:53:55.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "caret.js",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\wwwroot\\js\\caret.js",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\wwwroot\\js\\caret.js",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\wwwroot\\js\\caret.js",
+              "RelativeToolTip": "FileEncryptionWebApp\\wwwroot\\js\\caret.js",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-16T23:32:17.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "FileEncryptionWebApp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T00:08:48.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FileEncryptionProjectDatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp.DataAccess.EF\\Context\\FileEncryptionProjectDatabaseContext.cs",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp.DataAccess.EF\\Context\\FileEncryptionProjectDatabaseContext.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp.DataAccess.EF\\Context\\FileEncryptionProjectDatabaseContext.cs",
+              "RelativeToolTip": "FileEncryptionWebApp.DataAccess.EF\\Context\\FileEncryptionProjectDatabaseContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T08:01:16.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChaChaController.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Controllers\\ChaChaController.cs",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\Controllers\\ChaChaController.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Controllers\\ChaChaController.cs",
+              "RelativeToolTip": "FileEncryptionWebApp\\Controllers\\ChaChaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T03:37:40.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SimplifiedChaChaService.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Services\\SimplifiedChaChaService.cs",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\Services\\SimplifiedChaChaService.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Services\\SimplifiedChaChaService.cs",
+              "RelativeToolTip": "FileEncryptionWebApp\\Services\\SimplifiedChaChaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T08:54:11.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EncryptionKeysViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\ViewModels\\EncryptionKeysViewModel.cs",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\ViewModels\\EncryptionKeysViewModel.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\ViewModels\\EncryptionKeysViewModel.cs",
+              "RelativeToolTip": "FileEncryptionWebApp\\ViewModels\\EncryptionKeysViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T03:48:31.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EntriesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\ViewModels\\EntriesViewModel.cs",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\ViewModels\\EntriesViewModel.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\ViewModels\\EntriesViewModel.cs",
+              "RelativeToolTip": "FileEncryptionWebApp\\ViewModels\\EntriesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T03:48:55.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EncryptionKeysRepository.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp.DataAccess.EF\\Repositories\\EncryptionKeysRepository.cs",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp.DataAccess.EF\\Repositories\\EncryptionKeysRepository.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp.DataAccess.EF\\Repositories\\EncryptionKeysRepository.cs",
+              "RelativeToolTip": "FileEncryptionWebApp.DataAccess.EF\\Repositories\\EncryptionKeysRepository.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T07:58:40.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EntriesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp.DataAccess.EF\\Repositories\\EntriesRepository.cs",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp.DataAccess.EF\\Repositories\\EntriesRepository.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp.DataAccess.EF\\Repositories\\EntriesRepository.cs",
+              "RelativeToolTip": "FileEncryptionWebApp.DataAccess.EF\\Repositories\\EntriesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T05:39:51.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Startup.cs",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\Startup.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Startup.cs",
+              "RelativeToolTip": "FileEncryptionWebApp\\Startup.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T08:00:00.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FileEncryptionWebApp.csproj",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\FileEncryptionWebApp.csproj",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\FileEncryptionWebApp.csproj",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\FileEncryptionWebApp.csproj",
+              "RelativeToolTip": "FileEncryptionWebApp\\FileEncryptionWebApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-19T00:49:39.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChaChaService.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Services\\ChaChaService.cs",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\Services\\ChaChaService.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Services\\ChaChaService.cs",
+              "RelativeToolTip": "FileEncryptionWebApp\\Services\\ChaChaService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAD4vxwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T00:51:43.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FileEncryptionWebApp.DataAccess.EF.csproj",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp.DataAccess.EF\\FileEncryptionWebApp.DataAccess.EF.csproj",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp.DataAccess.EF\\FileEncryptionWebApp.DataAccess.EF.csproj",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp.DataAccess.EF\\FileEncryptionWebApp.DataAccess.EF.csproj",
+              "RelativeToolTip": "FileEncryptionWebApp.DataAccess.EF\\FileEncryptionWebApp.DataAccess.EF.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-16T22:42:07.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FilesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Repositories\\FilesRepository.cs",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\Repositories\\FilesRepository.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Repositories\\FilesRepository.cs",
+              "RelativeToolTip": "FileEncryptionWebApp\\Repositories\\FilesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:12:36.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ChaChaServiceUnitTests.csproj",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests.csproj",
+              "RelativeDocumentMoniker": "ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests.csproj",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests.csproj",
+              "RelativeToolTip": "ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-04T01:20:44.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SimplifiedChaChaServiceUnitTests.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\Services\\SimplifiedChaChaServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\Services\\SimplifiedChaChaServiceUnitTests.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\Services\\SimplifiedChaChaServiceUnitTests.cs",
+              "RelativeToolTip": "ChaChaServiceUnitTests\\ChaChaServiceUnitTests\\Services\\SimplifiedChaChaServiceUnitTests.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T08:48:48.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp\\Program.cs",
+              "RelativeToolTip": "FileEncryptionWebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T00:50:04.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp.DataAccess.EF\\Class1.cs",
+              "RelativeDocumentMoniker": "FileEncryptionWebApp.DataAccess.EF\\Class1.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\FileEncryptionWebApp\\FileEncryptionWebApp.DataAccess.EF\\Class1.cs",
+              "RelativeToolTip": "FileEncryptionWebApp.DataAccess.EF\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:25:50.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SQLFundamentals.DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\Course-CRUD-Applications\\Module - Building the Contacts App GUI\\SQLFundamentals.DataAccess\\SQLFundamentals.DataAccess.csproj",
+              "RelativeDocumentMoniker": "..\\Course-CRUD-Applications\\Module - Building the Contacts App GUI\\SQLFundamentals.DataAccess\\SQLFundamentals.DataAccess.csproj",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\Course-CRUD-Applications\\Module - Building the Contacts App GUI\\SQLFundamentals.DataAccess\\SQLFundamentals.DataAccess.csproj",
+              "RelativeToolTip": "..\\Course-CRUD-Applications\\Module - Building the Contacts App GUI\\SQLFundamentals.DataAccess\\SQLFundamentals.DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-16T22:31:31.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AccountModel.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\Course-CRUD-Applications\\Module - Building the Contacts App GUI\\SQLFundamentals.DataAccess\\Models\\AccountModel.cs",
+              "RelativeDocumentMoniker": "..\\Course-CRUD-Applications\\Module - Building the Contacts App GUI\\SQLFundamentals.DataAccess\\Models\\AccountModel.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\Course-CRUD-Applications\\Module - Building the Contacts App GUI\\SQLFundamentals.DataAccess\\Models\\AccountModel.cs",
+              "RelativeToolTip": "..\\Course-CRUD-Applications\\Module - Building the Contacts App GUI\\SQLFundamentals.DataAccess\\Models\\AccountModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:17:09.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BookModel.cs",
+              "DocumentMoniker": "C:\\Users\\12819\\source\\repos\\Course-CRUD-Applications\\Module - Building the Contacts App GUI\\SQLFundamentals.DataAccess\\Models\\BookModel.cs",
+              "RelativeDocumentMoniker": "..\\Course-CRUD-Applications\\Module - Building the Contacts App GUI\\SQLFundamentals.DataAccess\\Models\\BookModel.cs",
+              "ToolTip": "C:\\Users\\12819\\source\\repos\\Course-CRUD-Applications\\Module - Building the Contacts App GUI\\SQLFundamentals.DataAccess\\Models\\BookModel.cs",
+              "RelativeToolTip": "..\\Course-CRUD-Applications\\Module - Building the Contacts App GUI\\SQLFundamentals.DataAccess\\Models\\BookModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:17:07.88Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

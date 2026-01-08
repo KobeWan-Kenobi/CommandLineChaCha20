@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FileEncryptionWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a714aeb511013ebc822878affc816710da2b28f")]
 [assembly: System.Reflection.AssemblyProductAttribute("FileEncryptionWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FileEncryptionWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

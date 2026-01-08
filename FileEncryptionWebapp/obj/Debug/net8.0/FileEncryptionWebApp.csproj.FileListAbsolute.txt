@@ -255,3 +255,4 @@ C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp\obj\Debug\
 C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp\obj\Debug\net8.0\FileEncryptionWebApp.pdb
 C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp\obj\Debug\net8.0\FileEncryptionWebApp.genruntimeconfig.cache
 C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp\obj\Debug\net8.0\ref\FileEncryptionWebApp.dll
+C:\Users\12819\source\repos\FileEncryptionWebApp\FileEncryptionWebApp\obj\Debug\net8.0\FileEncryptionWebApp.sourcelink.json

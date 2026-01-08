@@ -69,10 +69,10 @@ const ChaChaService = {
         
         const encoder = new TextEncoder();
         const message = encoder.encode(plaintext);
-
+        //Prerequisites 
         steps.push({
-            stepNumber: 1,
-            stepName: "Convert to Bytes",
+            stepNumber: "1",
+            stepName: "Prerequisites",
             description: [
                 "<br>",
                 "The following demonstration assumes that the user has a grasp of",
@@ -84,10 +84,10 @@ const ChaChaService = {
             stateType: "hex"
         });
 
-        // Step 1: Show bytes
+        // Step 2: Show bytes
         
         steps.push({
-            stepNumber: 1,
+            stepNumber: "2",
             stepName: "Convert to Bytes",
             description: [
                 "<br>",
@@ -103,9 +103,9 @@ const ChaChaService = {
             stateType: "hex"
         });
 
-        // Step 2: Generate Nonce and Ciphertext
+        // Step 3: Generate Nonce and Ciphertext
         steps.push({
-            stepNumber: 2,
+            stepNumber: "3",
             stepName: "Generate encryption key and nonce",
             description: [
                 "We use Mozilla's crypto.getRandomValues(), a secure number generator, to get our key and nonce.",
@@ -129,7 +129,7 @@ const ChaChaService = {
         // Step 4: Initialize state matrix
         const keyStreamMatrix = this.initializeKeyStreamMatrix(key, nonce, counter);
         steps.push({
-            stepNumber: 3,
+            stepNumber: "4",
             stepName: "Initialize keystream matrix",
             description: [
                 "<br>",
@@ -148,7 +148,7 @@ const ChaChaService = {
 
         // Step 5: Show quarter round operations
         steps.push({
-            stepNumber: 4,
+            stepNumber: "5",
             stepName: "Shuffling keystream matrix",
             description: [
                 "<br>",
@@ -191,7 +191,8 @@ const ChaChaService = {
             stateType: "text"
         });
 
-        // Step 7: XOR operation
+        // Step 6: XOR operation
+        // 
         const output = new Uint8Array(message.length);
         for (let i = 0; i < message.length; i++) {
             output[i] = message[i] ^ keyStreamBytes[i];
@@ -225,6 +226,9 @@ const ChaChaService = {
         return steps;
     },
 
+    showEncryptionWithSteps() {
+
+    },
     /**
      * Process data (both encryption and decryption use this)
      * @param {Uint8Array} input - Input bytes
