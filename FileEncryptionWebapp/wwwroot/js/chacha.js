@@ -63,7 +63,7 @@ const ChaChaService = {
      * @param {number} counter - Starting counter (default 0)
      * @returns {Object} Encryption result with steps array
      */
-    encryptWithSteps(plaintext, key, nonce, counter = 0) {
+    createEncryptionWithStepsArray(plaintext, key, nonce, counter = 0) {
         const steps = [];
 
         
@@ -149,7 +149,7 @@ const ChaChaService = {
         // Step 5: Show quarter round operations
         steps.push({
             stepNumber: 4,
-            stepName: "Quarter Round Operations",
+            stepName: "Shuffling keystream matrix",
             description: [
                 "<br>",
                 "Now that the matrix is generated, we get to the heart of the algorithm.",
@@ -176,8 +176,9 @@ const ChaChaService = {
                 "Each round consists of 4 QuarterRounds applied to vertical and diagonal blocks.",
                 "The algorithm alternates between diagonal and vertical rounds.",
                 "Vertical rounds QuarterRound(a,e,i,m)...(d,h,l,p)",
-                "Diagonal rounds QR(a,f,k,p)...(c,h,i,o)...(d,e,j,o)... "
-                
+                "Diagonal rounds QR(a,f,k,p)...(c,h,i,o)...(d,e,j,o)... ",
+                "After shuffling the the keystream matrix 20 times, we add the original matrix to itself",
+                "This way, potential attackers cannot simply undo the rounds to discover the initial state"
 
                 /*
                 a b c d
@@ -199,7 +200,15 @@ const ChaChaService = {
         steps.push({
             stepNumber: 8,
             stepName: "XOR with Keystream",
-            description: "After shuffling the the keystream matrix with the QuarterRound function",
+            description: [
+                "Then we perform XORs with each keystream bit and each plaintext bit",
+                "When we reach the final keystream bit, we increment the counter by 1",
+                "and reshuffle the matrix.",
+                "In other words, every 64 bytes, we generate a new keystream matrix",
+                "with the incremented counter.",
+                "In the unlikely event that the counter overflows (approx 4 billion * 64 bytes = 256 GB),", 
+                "it simply starts from 0 again.",
+            ],         
             stateData: `${message[0].toString(16).padStart(2, '0')} ⊕ ${keyStreamBytes[0].toString(16).padStart(2, '0')} = ${output[0].toString(16).padStart(2, '0')} (example for first byte)`,
             stateType: "text"
         });
@@ -208,21 +217,12 @@ const ChaChaService = {
         steps.push({
             stepNumber: 9,
             stepName: "Final Ciphertext",
-            description: "Base64 encoded encrypted output",
+            description: "Here is what your final ciphertext looks like:",
             stateData: this.bytesToBase64(output),
             stateType: "base64"
         });
 
-        return {
-            algorithm: "ChaCha20",
-            originalText: plaintext,
-            encryptedBytes: output,
-            encryptedBase64: this.bytesToBase64(output),
-            steps: steps,
-            keyUsed: this.bytesToBase64(key),
-            nonceUsed: this.bytesToBase64(nonce),
-            timestamp: new Date().toISOString()
-        };
+        return steps;
     },
 
     /**
