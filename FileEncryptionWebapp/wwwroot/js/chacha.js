@@ -2,7 +2,7 @@
 // It was a PITA to rewrite all this in JS :(
 const ChaChaService = {
     MATRIX_SIZE: 16,
-    ROUNDS: 20,
+    ROUNDS: 10, // 10 Double rounds == 20 rounds, hence chacha20
 
     // Constant bits: "expand 32-byte k"
     CONSTANT_BITS: new Uint32Array([
@@ -199,7 +199,7 @@ const ChaChaService = {
         steps.push({
             stepNumber: 8,
             stepName: "XOR with Keystream",
-            description: "Each plaintext byte XORed with keystream byte",
+            description: "After shuffling the the keystream matrix with the QuarterRound function",
             stateData: `${message[0].toString(16).padStart(2, '0')} ⊕ ${keyStreamBytes[0].toString(16).padStart(2, '0')} = ${output[0].toString(16).padStart(2, '0')} (example for first byte)`,
             stateType: "text"
         });
