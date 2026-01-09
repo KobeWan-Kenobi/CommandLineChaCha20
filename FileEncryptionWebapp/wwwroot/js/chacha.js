@@ -18,9 +18,6 @@ const ChaChaService = {
      * @returns {Uint8Array} Encrypted bytes
      */
     encrypt(plaintext, key, nonce, counter = 0) {
-        let key = this.generateKey;
-        let nonce = this.generateNonce;
-        let counter = 0;
         
         // Convert plaintext string to bytes
         const encoder = new TextEncoder();
@@ -60,7 +57,11 @@ const ChaChaService = {
      * @param {number} counter - Starting counter (default 0)
      * @returns {Object} Encryption result with steps array
      */
-    createEncryptionWithStepsArray(plaintext, key, nonce, counter = 0) {
+    createEncryptionWithStepsArray(plaintext) {
+        const key = this.generateKey();
+        const nonce = this.generateNonce();
+        let counter = 0;
+
         const steps = [];
 
         
@@ -76,7 +77,7 @@ const ChaChaService = {
                 "binary addition, exclusive or (xor), and bit rotations",
                 "<br>"
             ],
-            stateData: null ,
+            stateData: "\t",
             stateType: "hex"
         });
 
@@ -185,6 +186,7 @@ const ChaChaService = {
 
         // Step 6: XOR operation
         // 
+        const keyStreamBytes = this.shuffleKeyStreamMatrix(keyStreamMatrix);
         const output = new Uint8Array(message.length);
         for (let i = 0; i < message.length; i++) {
             output[i] = message[i] ^ keyStreamBytes[i];
@@ -215,17 +217,25 @@ const ChaChaService = {
 
         return steps;
     },
-
-    showEncryptionWithSteps() {
-
+    /**
+     * 
+     *  Uncaught TypeError: Cannot read properties of undefined (reading 'forEach')
+     *  at loopLines (site.js:215:11)
+     *  at Object.showEncryptionWithSteps (chacha.js:230:13)
+     *  at learnCommander (site.js:175:31)
+     *  at enterKey (site.js:58:14)
+     */
+    showEncryptionWithSteps(plaintext) {
+        let steps = this.createEncryptionWithStepsArray(plaintext)
         for (let i = 0; i < steps.length; i++) {
             let stepTitle = steps[i].stepName;
-            let stepDescription = steps[i].stepName;
-            let stateData = steps[i].stateData.toString;
+            let stepDescription = steps[i].stepDescription;
+            let stateData = steps[i].stateData.toString();
+            
 
             addLine(stepTitle, "color2 margin", 80);
             loopLines(stepDescription, "color2 margin", 80);
-            loopLines(stateData, "color2 margin", 80);
+            addLine(stateData, "color2 margin", 80);
         }
     },
     /**

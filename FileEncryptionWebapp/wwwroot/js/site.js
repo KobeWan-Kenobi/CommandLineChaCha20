@@ -161,11 +161,20 @@ function homeCommander(cmd) {
     }
 }
 
-function learnCommander(cmd) {
-    const parts = cmd.split(' ');
+function learnCommander(input) {
+    const parts = input.split(' ');
     const command = parts[0].toLowerCase();
 
     switch (command) {
+        case "demonstrate":
+            if (parts.length < 2) {
+                addLine("<span class='error'>ERROR usage: demonstrate [message] </span>", "error", 100);
+            }
+            else {
+                let message = parts.slice(1).join(' ');
+                ChaChaService.showEncryptionWithSteps(message);
+            }
+            break;
         case "exit":
             currentMode = modes.HOME;
             syncLiner();
