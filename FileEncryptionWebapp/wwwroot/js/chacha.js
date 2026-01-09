@@ -18,13 +18,10 @@ const ChaChaService = {
      * @returns {Uint8Array} Encrypted bytes
      */
     encrypt(plaintext, key, nonce, counter = 0) {
-        if (key.length !== 32) {
-            throw new Error('Key must be 32 bytes');
-        }
-        if (nonce.length !== 8) {
-            throw new Error('Nonce must be 8 bytes');
-        }
-
+        let key = this.generateKey;
+        let nonce = this.generateNonce;
+        let counter = 0;
+        
         // Convert plaintext string to bytes
         const encoder = new TextEncoder();
         const message = encoder.encode(plaintext);
@@ -71,8 +68,7 @@ const ChaChaService = {
         const message = encoder.encode(plaintext);
         //Prerequisites 
         steps.push({
-            stepNumber: "1",
-            stepName: "Prerequisites",
+            stepName: "1. Prerequisites",
             description: [
                 "<br>",
                 "The following demonstration assumes that the user has a grasp of",
@@ -87,8 +83,7 @@ const ChaChaService = {
         // Step 2: Show bytes
         
         steps.push({
-            stepNumber: "2",
-            stepName: "Convert to Bytes",
+            stepName: "2. Convert to Bytes",
             description: [
                 "<br>",
                 "First, the message is converted into bytes using ASCII.",
@@ -105,8 +100,7 @@ const ChaChaService = {
 
         // Step 3: Generate Nonce and Ciphertext
         steps.push({
-            stepNumber: "3",
-            stepName: "Generate encryption key and nonce",
+            stepName: "3. Generate encryption key and nonce",
             description: [
                 "We use Mozilla's crypto.getRandomValues(), a secure number generator, to get our key and nonce.",
                 "The key is the heart of this whole operation.",
@@ -129,8 +123,7 @@ const ChaChaService = {
         // Step 4: Initialize state matrix
         const keyStreamMatrix = this.initializeKeyStreamMatrix(key, nonce, counter);
         steps.push({
-            stepNumber: "4",
-            stepName: "Initialize keystream matrix",
+            stepName: "4. Initialize keystream matrix",
             description: [
                 "<br>",
                 "Chacha20 generates a 4x4 matrix. Each box in the grid is 4 bytes",
@@ -148,8 +141,7 @@ const ChaChaService = {
 
         // Step 5: Show quarter round operations
         steps.push({
-            stepNumber: "5",
-            stepName: "Shuffling keystream matrix",
+            stepName: "5. Shuffling keystream matrix",
             description: [
                 "<br>",
                 "Now that the matrix is generated, we get to the heart of the algorithm.",
@@ -199,8 +191,7 @@ const ChaChaService = {
         }
 
         steps.push({
-            stepNumber: 8,
-            stepName: "XOR with Keystream",
+            stepName: "6. XOR with Keystream",
             description: [
                 "Then we perform XORs with each keystream bit and each plaintext bit",
                 "When we reach the final keystream bit, we increment the counter by 1",
@@ -214,10 +205,9 @@ const ChaChaService = {
             stateType: "text"
         });
 
-        // Step 8: Final ciphertext
+        // Step 7: Final ciphertext
         steps.push({
-            stepNumber: 9,
-            stepName: "Final Ciphertext",
+            stepName: "7. Final Ciphertext",
             description: "Here is what your final ciphertext looks like:",
             stateData: this.bytesToBase64(output),
             stateType: "base64"
@@ -228,6 +218,15 @@ const ChaChaService = {
 
     showEncryptionWithSteps() {
 
+        for (let i = 0; i < steps.length; i++) {
+            let stepTitle = steps[i].stepName;
+            let stepDescription = steps[i].stepName;
+            let stateData = steps[i].stateData.toString;
+
+            addLine(stepTitle, "color2 margin", 80);
+            loopLines(stepDescription, "color2 margin", 80);
+            loopLines(stateData, "color2 margin", 80);
+        }
     },
     /**
      * Process data (both encryption and decryption use this)

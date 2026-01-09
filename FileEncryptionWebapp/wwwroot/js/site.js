@@ -25,6 +25,7 @@ const modes = {
     LOGIN: 'login'
 }
 
+let currentMode = modes.HOME;
 
 ﻿
 ﻿console.log("site.js loaded");
@@ -160,8 +161,11 @@ function homeCommander(cmd) {
     }
 }
 
-function learnCommander(input) {
-    switch (input) {
+function learnCommander(cmd) {
+    const parts = cmd.split(' ');
+    const command = parts[0].toLowerCase();
+
+    switch (command) {
         case "exit":
             currentMode = modes.HOME;
             syncLiner();
