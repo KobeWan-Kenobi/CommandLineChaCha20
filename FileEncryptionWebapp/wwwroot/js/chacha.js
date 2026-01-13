@@ -204,7 +204,7 @@ const ChaChaService = {
         // Step 7: Final ciphertext
         steps.push({
             stepName: "7. Final Ciphertext",
-            description: "Here is what your final ciphertext looks like:",
+            description: ["Here is what your final ciphertext looks like:"],
             stateData: this.bytesToBase64(output),
             stateType: "base64"
         });

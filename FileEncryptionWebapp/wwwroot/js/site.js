@@ -166,9 +166,9 @@ function learnCommander(input) {
     const command = parts[0].toLowerCase();
 
     switch (command) {
-        case "demonstrate":
+        case "demo":
             if (parts.length < 2) {
-                addLine("<span class='error'>ERROR usage: demonstrate [message] </span>", "error", 100);
+                addLine("<span class='error'>ERROR usage: demo [message] </span>", "error", 100);
             }
             else {
                 let message = parts.slice(1).join(' ');
