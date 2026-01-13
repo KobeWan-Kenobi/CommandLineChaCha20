@@ -255,7 +255,7 @@ async function saveEncryptedEntry(plaintext) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
             encryptedEntry: ChaChaService.bytesToBase64(encrypted),
-            key: ChaChaService.bytesToBase64(key),  // In real app, derive from user password
+            key: ChaChaService.bytesToBase64(key),  
             nonce: ChaChaService.bytesToBase64(nonce),
             userId: parseInt(userId)
         })
