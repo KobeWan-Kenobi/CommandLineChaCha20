@@ -78,7 +78,6 @@ const ChaChaService = {
                 "<br>"
             ],
             stateData: "\t",
-            stateType: "hex"
         });
 
         // Step 2: Show bytes
@@ -96,7 +95,6 @@ const ChaChaService = {
                 "<br>"
             ],
             stateData: Array.from(message).map(b => b.toString(16).padStart(2, '0')).join(' '),
-            stateType: "hex"
         });
 
         // Step 3: Generate Nonce and Ciphertext
@@ -117,7 +115,6 @@ const ChaChaService = {
                 nonce: Array.from(nonce).map(b => b.toString(16).padStart(2, '0')).join(' '), 
                 key: Array.from(key).map(b => b.toString(16).padStart(2, '0')).join(' ')
             },
-            stateType: "base64"
         });
 
 
@@ -137,7 +134,6 @@ const ChaChaService = {
                 "<br>",
             ],
             stateData: Array.from(message).map(b => b.toString(16).padStart(2, '0')).join(' '),
-            stateType: "hex"
         });
 
         // Step 5: Show quarter round operations
@@ -181,7 +177,6 @@ const ChaChaService = {
                 */
             ],
             stateData: "",
-            stateType: "text"
         });
 
         // Step 6: XOR operation
@@ -204,7 +199,6 @@ const ChaChaService = {
                 "it simply starts from 0 again.",
             ],         
             stateData: `${message[0].toString(16).padStart(2, '0')} ⊕ ${keyStreamBytes[0].toString(16).padStart(2, '0')} = ${output[0].toString(16).padStart(2, '0')} (example for first byte)`,
-            stateType: "text"
         });
 
         // Step 7: Final ciphertext
@@ -227,15 +221,18 @@ const ChaChaService = {
      */
     showEncryptionWithSteps(plaintext) {
         let steps = this.createEncryptionWithStepsArray(plaintext)
+        let delay = 80; // starts delay at 80 ms will be incremented upon every addLine to prevent text from being displayed randomly and simultaneously 
         for (let i = 0; i < steps.length; i++) {
             let stepTitle = steps[i].stepName;
-            let stepDescription = steps[i].stepDescription;
             let stateData = steps[i].stateData.toString();
-            
+            let stepDescription = steps[i].description;
 
-            addLine(stepTitle, "color2 margin", 80);
-            loopLines(stepDescription, "color2 margin", 80);
-            addLine(stateData, "color2 margin", 80);
+            addLine(stepTitle, "white margin", delay+=10);
+            for (let j = 0; j < stepDescription.length; j++) {
+                addLine(stepDescription[j], "color2 margin", delay += 10);
+            }
+
+            addLine(stateData, "color2 margin", delay += 10);
         }
     },
     /**
