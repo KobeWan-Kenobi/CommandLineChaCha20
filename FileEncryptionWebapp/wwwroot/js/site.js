@@ -22,7 +22,7 @@ const modes = {
     LEARN: 'learn',
     HOME: 'home',
     ENCRYPT: 'encrypt',
-    LOGIN: 'login'
+    //LEARNING: 'learning'
 }
 
 let currentMode = modes.HOME;
@@ -184,11 +184,7 @@ function learnCommander(input) {
             break;
     }
 }
-﻿function newTab(link) {
-﻿    setTimeout(function () {
-﻿        window.open(link, "_blank");
-﻿    }, 500);
-﻿}
+
 ﻿
 ﻿function addLine(text, style, time) {
 ﻿    var t = "";

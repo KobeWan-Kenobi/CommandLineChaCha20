@@ -215,14 +215,7 @@ const ChaChaService = {
 
         return steps;
     },
-    /**
-     * 
-     *  Uncaught TypeError: Cannot read properties of undefined (reading 'forEach')
-     *  at loopLines (site.js:215:11)
-     *  at Object.showEncryptionWithSteps (chacha.js:230:13)
-     *  at learnCommander (site.js:175:31)
-     *  at enterKey (site.js:58:14)
-     */
+    
     showEncryptionWithSteps(plaintext) {
         let steps = this.createEncryptionWithStepsArray(plaintext)
         let delay = 80; // starts delay at 80 ms will be incremented upon every addLine to prevent text from being displayed randomly and simultaneously 
@@ -235,8 +228,8 @@ const ChaChaService = {
             for (let j = 0; j < stepDescription.length; j++) {
                 addLine(stepDescription[j], "color2 margin", delay += 10);
             }
-
             addLine(stateData, "color2 margin", delay += 10);
+
         }
     },
     /**

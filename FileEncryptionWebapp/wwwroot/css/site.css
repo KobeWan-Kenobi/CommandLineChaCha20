@@ -67,12 +67,12 @@ b {
     margin-right: 10px;
 }
 
-/* Home mode */
+/* Learn mode */
 #liner:not(.learn-mode):not(.password)::before {
     content: "KobeCodesVisitor:~$ ";
 }
 
-/* Learn mode */
+/* Home mode */
 #liner.learn-mode::before {
     content: "KobeCodesVisitor[LEARN]:~$ ";
     color: #ffcc00;
