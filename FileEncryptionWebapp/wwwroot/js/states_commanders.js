@@ -88,7 +88,7 @@ function learnCommander(input) {
             }
             else {
                 let message = parts.slice(1).join(' ');
-                ChaChaService.showEncryptionWithSteps(message);
+                ChaChaVisualizer.showEncryptionWithSteps(message);
             }
             break;
         case "exit":
