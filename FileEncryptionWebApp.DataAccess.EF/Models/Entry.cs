@@ -15,5 +15,9 @@ public partial class Entry
 
     public int EncryptionKeyId { get; set; }
 
+    public int UserId { get; set; }
+
     public virtual EncryptionKey EncryptionKey { get; set; } = null!;
+
+    public virtual User User { get; set; } = null!;
 }

@@ -16,4 +16,6 @@ public partial class EncryptionKey
     public byte[] EncryptionKey1 { get; set; } = null!;
 
     public virtual ICollection<Entry> Entries { get; set; } = new List<Entry>();
+
+    public virtual ICollection<User> Users { get; set; } = new List<User>();
 }

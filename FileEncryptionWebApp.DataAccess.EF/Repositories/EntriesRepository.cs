@@ -21,7 +21,7 @@ namespace FileEncryptionWebApp.DataAccess.EF.Repositories
 
         public int? Update(Entry entry)
         {
-            Entry? existingEntry= _dbContext.Entries.Find(entry.EncryptionKeyId);
+            Entry? existingEntry = _dbContext.Entries.Find(entry.EncryptionKeyId);
             if (existingEntry == null)
             {
                 return null;

@@ -7,6 +7,10 @@
  * 4. Write the back-end for the Entries, Users and EncryptionKeys tables
  * 5. Update 'help' function to include new commands
  */
+
+// 1/19/2025
+// 1. Scaffold and finish writing backend
+// 2. Connect backend to frontend
 ﻿var before = document.getElementById("before");
 ﻿var liner = document.getElementById("liner");
 ﻿var command = document.getElementById("typer");
@@ -17,16 +21,6 @@
 ﻿var pw = false;
 ﻿let pwd = false;
 ﻿var commands = [];
-
-//const modes = {
-//    LEARN: 'learn',
-//    HOME: 'home',
-//    ENCRYPT: 'encrypt',
-//    //LEARNING: 'learning'
-//}
-
-//let currentMode = modes.HOME;
-
 ﻿
 ﻿console.log("site.js loaded");
 ﻿console.log("help variable:", help);
