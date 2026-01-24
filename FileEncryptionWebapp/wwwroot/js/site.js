@@ -9,7 +9,7 @@
  */
 
 // 1/19/2025
-// 1. Scaffold and finish writing backend
+
 // 2. Connect backend to frontend
 ﻿var before = document.getElementById("before");
 ﻿var liner = document.getElementById("liner");
